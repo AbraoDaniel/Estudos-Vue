@@ -1,0 +1,39 @@
+:root {
+    --color-background:#9f9f9f;
+    --color-background-nav:#000000;
+    --color-background-home:#bbbbbb;
+    --color-text-light:#EDEDED;
+    --color-text-dark:black;
+
+  }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    background-color: var(--color-background);
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s opacity;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    width:90%;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+}
