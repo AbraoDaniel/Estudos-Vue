@@ -18,7 +18,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/videos">Vídeos</a></li>
                 <li><a href="/sobre">Sobre</a></li>
-                <li><a href="/contato">Contato</a></li>
+                <li><a href="./ContatoOne.vue">Contato</a></li>
             
             </ul>
 
@@ -45,6 +45,8 @@ export default {
         }
     }
 }
+
+
 </script>
 
 <style scoped>
